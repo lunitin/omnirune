@@ -1,5 +1,5 @@
 # OmniRune
-Tomenet Ultimate Runemaster preferences
+Tomenet Ultimate Runemaster preferences by Aldritek
 
 Put this in your TomeNET-user folder with your <character>.prf files
 
