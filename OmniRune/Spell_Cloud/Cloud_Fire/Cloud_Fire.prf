@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Fire.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Fire Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Fire\\Minor_Cloud_Fire.prf\r:%:SPELL ASSIGNED: {fLengthened Fire Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Fire\\Moderate_Cloud_Fire.prf\r:%:SPELL ASSIGNED: {fExpanded Fire Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Fire\\Major_Cloud_Fire.prf\r:%:SPELL ASSIGNED: {fMaximized Fire Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Fire\\Enhanced_Cloud_Fire.prf\r:%:SPELL ASSIGNED: {fFire Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

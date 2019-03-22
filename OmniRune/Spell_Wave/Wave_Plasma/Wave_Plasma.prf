@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Plasma.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Plasma Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Plasma\\Minor_Wave_Plasma.prf\r:%:SPELL ASSIGNED: {lLengthened Plasma Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Plasma\\Moderate_Wave_Plasma.prf\r:%:SPELL ASSIGNED: {lExpanded Plasma Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Plasma\\Major_Wave_Plasma.prf\r:%:SPELL ASSIGNED: {lMaximized Plasma Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Plasma\\Enhanced_Wave_Plasma.prf\r:%:SPELL ASSIGNED: {lPlasma Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

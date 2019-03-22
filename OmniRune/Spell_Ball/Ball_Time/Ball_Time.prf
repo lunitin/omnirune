@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Ball_Time.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Time Ball
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Time\\Minor_Ball_Time.prf\r:%:SPELL ASSIGNED: {tLengthened Time Ball\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Time\\Moderate_Ball_Time.prf\r:%:SPELL ASSIGNED: {tExpanded Time Ball\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Time\\Major_Ball_Time.prf\r:%:SPELL ASSIGNED: {tMaximized Time Ball\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Time\\Enhanced_Ball_Time.prf\r:%:SPELL ASSIGNED: {tTime Swarm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

@@ -1,0 +1,56 @@
+
+
+# Macro Set: OmniRune
+
+# File: E_Disenchantment.prf
+
+# Spell Type Selection
+# User selects the form the prepared spell will take.
+
+# Element - Disenchantment
+
+# Keymap: ` = Cancel Selection Process
+#         q = Bolt  w = Cloud  e = Ball 
+#         a = Wave  s = Burst  d = d
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Disenchantment\\Bolt_Disenchantment.prf\r:%:BASE SPELL: {TDisenchantment Bolt\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Disenchantment\\Cloud_Disenchantment.prf\r:%:BASE SPELL: {TDisenchantment Cloud\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Disenchantment\\Ball_Disenchantment.prf\r:%:BASE SPELL: {TDisenchantment Ball\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Disenchantment\\Wave_Disenchantment.prf\r:%:BASE SPELL: {TDisenchantment Wave\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Disenchantment\\Burst_Disenchantment.prf\r:%:BASE SPELL: {TDisenchantment Burst\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:s
+
+
+# Macro '6'
+
+A:d
+C:d

@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Darkness.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Darkness Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Darkness\\Minor_Wave_Darkness.prf\r:%:SPELL ASSIGNED: {ALengthened Darkness Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Darkness\\Moderate_Wave_Darkness.prf\r:%:SPELL ASSIGNED: {AExpanded Darkness Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Darkness\\Major_Wave_Darkness.prf\r:%:SPELL ASSIGNED: {AMaximized Darkness Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Darkness\\Enhanced_Wave_Darkness.prf\r:%:SPELL ASSIGNED: {ADarkness Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

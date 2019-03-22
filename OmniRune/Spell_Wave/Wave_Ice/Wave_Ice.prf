@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Ice.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Ice Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Ice\\Minor_Wave_Ice.prf\r:%:SPELL ASSIGNED: {iLengthened Ice Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Ice\\Moderate_Wave_Ice.prf\r:%:SPELL ASSIGNED: {iExpanded Ice Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Ice\\Major_Wave_Ice.prf\r:%:SPELL ASSIGNED: {iMaximized Ice Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Ice\\Enhanced_Wave_Ice.prf\r:%:SPELL ASSIGNED: {iIce Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

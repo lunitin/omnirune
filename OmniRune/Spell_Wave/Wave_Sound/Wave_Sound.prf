@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Sound.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Sound Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Sound\\Minor_Wave_Sound.prf\r:%:SPELL ASSIGNED: {SLengthened Sound Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Sound\\Moderate_Wave_Sound.prf\r:%:SPELL ASSIGNED: {SExpanded Sound Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Sound\\Major_Wave_Sound.prf\r:%:SPELL ASSIGNED: {SMaximized Sound Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Sound\\Enhanced_Wave_Sound.prf\r:%:SPELL ASSIGNED: {SSound Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

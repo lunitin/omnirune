@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Nether.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Nether Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Nether\\Minor_Bolt_Nether.prf\r:%:SPELL ASSIGNED: {nCompressed Nether Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Nether\\Moderate_Bolt_Nether.prf\r:%:SPELL ASSIGNED: {nBrief Nether Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Nether\\Major_Bolt_Nether.prf\r:%:SPELL ASSIGNED: {nMaximized Nether Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Nether\\Enhanced_Bolt_Nether.prf\r:%:SPELL ASSIGNED: {nNether Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

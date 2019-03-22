@@ -1,0 +1,56 @@
+
+
+# Macro Set: OmniRune
+
+# File: E_Mana.prf
+
+# Spell Type Selection
+# User selects the form the prepared spell will take.
+
+# Element - Mana
+
+# Keymap: ` = Cancel Selection Process
+#         q = Bolt  w = Cloud  e = Ball 
+#         a = Wave  s = Burst  d = d
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Mana\\Bolt_Mana.prf\r:%:BASE SPELL: {NMana Bolt\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Mana\\Cloud_Mana.prf\r:%:BASE SPELL: {NMana Cloud\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Mana\\Ball_Mana.prf\r:%:BASE SPELL: {NMana Ball\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Mana\\Wave_Mana.prf\r:%:BASE SPELL: {NMana Wave\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Mana\\Burst_Mana.prf\r:%:BASE SPELL: {NMana Burst\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:s
+
+
+# Macro '6'
+
+A:d
+C:d

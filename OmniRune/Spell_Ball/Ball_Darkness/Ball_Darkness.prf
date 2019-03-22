@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Ball_Darkness.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Darkness Ball
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Darkness\\Minor_Ball_Darkness.prf\r:%:SPELL ASSIGNED: {ALengthened Darkness Ball\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Darkness\\Moderate_Ball_Darkness.prf\r:%:SPELL ASSIGNED: {AExpanded Darkness Ball\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Darkness\\Major_Ball_Darkness.prf\r:%:SPELL ASSIGNED: {AMaximized Darkness Ball\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Darkness\\Enhanced_Ball_Darkness.prf\r:%:SPELL ASSIGNED: {ADarkness Swarm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Burst_Lightning.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Lightning Burst
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Lightning\\Minor_Burst_Lightning.prf\r:%:SPELL ASSIGNED: {eMinimized Lightning Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Lightning\\Moderate_Burst_Lightning.prf\r:%:SPELL ASSIGNED: {eExpanded Lightning Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Lightning\\Major_Burst_Lightning.prf\r:%:SPELL ASSIGNED: {eMaximized Lightning Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Lightning\\Enhanced_Burst_Lightning.prf\r:%:SPELL ASSIGNED: {eLightning Flare\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

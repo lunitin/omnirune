@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Nexus.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Nexus Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nexus\\Minor_Wave_Nexus.prf\r:%:SPELL ASSIGNED: {xLengthened Nexus Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nexus\\Moderate_Wave_Nexus.prf\r:%:SPELL ASSIGNED: {xExpanded Nexus Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nexus\\Major_Wave_Nexus.prf\r:%:SPELL ASSIGNED: {xMaximized Nexus Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nexus\\Enhanced_Wave_Nexus.prf\r:%:SPELL ASSIGNED: {xNexus Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

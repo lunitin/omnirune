@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Plasma.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Plasma Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Plasma\\Minor_Cloud_Plasma.prf\r:%:SPELL ASSIGNED: {lLengthened Plasma Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Plasma\\Moderate_Cloud_Plasma.prf\r:%:SPELL ASSIGNED: {lExpanded Plasma Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Plasma\\Major_Cloud_Plasma.prf\r:%:SPELL ASSIGNED: {lMaximized Plasma Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Plasma\\Enhanced_Cloud_Plasma.prf\r:%:SPELL ASSIGNED: {lPlasma Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

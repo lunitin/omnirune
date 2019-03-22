@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Burst_Water.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Water Burst
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Water\\Minor_Burst_Water.prf\r:%:SPELL ASSIGNED: {YMinimized Water Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Water\\Moderate_Burst_Water.prf\r:%:SPELL ASSIGNED: {YExpanded Water Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Water\\Major_Burst_Water.prf\r:%:SPELL ASSIGNED: {YMaximized Water Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Water\\Enhanced_Burst_Water.prf\r:%:SPELL ASSIGNED: {YWater Flare\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

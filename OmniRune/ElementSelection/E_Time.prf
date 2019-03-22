@@ -1,0 +1,56 @@
+
+
+# Macro Set: OmniRune
+
+# File: E_Time.prf
+
+# Spell Type Selection
+# User selects the form the prepared spell will take.
+
+# Element - Time
+
+# Keymap: ` = Cancel Selection Process
+#         q = Bolt  w = Cloud  e = Ball 
+#         a = Wave  s = Burst  d = d
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Time\\Bolt_Time.prf\r:%:BASE SPELL: {tTime Bolt\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Time\\Cloud_Time.prf\r:%:BASE SPELL: {tTime Cloud\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Time\\Ball_Time.prf\r:%:BASE SPELL: {tTime Ball\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Time\\Wave_Time.prf\r:%:BASE SPELL: {tTime Wave\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Time\\Burst_Time.prf\r:%:BASE SPELL: {tTime Burst\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:s
+
+
+# Macro '6'
+
+A:d
+C:d

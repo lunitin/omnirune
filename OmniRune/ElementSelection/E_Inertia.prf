@@ -1,0 +1,56 @@
+
+
+# Macro Set: OmniRune
+
+# File: E_Inertia.prf
+
+# Spell Type Selection
+# User selects the form the prepared spell will take.
+
+# Element - Inertia
+
+# Keymap: ` = Cancel Selection Process
+#         q = Bolt  w = Cloud  e = Ball 
+#         a = Wave  s = Burst  d = d
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Inertia\\Bolt_Inertia.prf\r:%:BASE SPELL: {qInertia Bolt\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Inertia\\Cloud_Inertia.prf\r:%:BASE SPELL: {qInertia Cloud\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Inertia\\Ball_Inertia.prf\r:%:BASE SPELL: {qInertia Ball\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Inertia\\Wave_Inertia.prf\r:%:BASE SPELL: {qInertia Wave\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Inertia\\Burst_Inertia.prf\r:%:BASE SPELL: {qInertia Burst\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:s
+
+
+# Macro '6'
+
+A:d
+C:d

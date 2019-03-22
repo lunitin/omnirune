@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Light.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Light Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Light\\Minor_Cloud_Light.prf\r:%:SPELL ASSIGNED: {LLengthened Light Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Light\\Moderate_Cloud_Light.prf\r:%:SPELL ASSIGNED: {LExpanded Light Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Light\\Major_Cloud_Light.prf\r:%:SPELL ASSIGNED: {LMaximized Light Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Light\\Enhanced_Cloud_Light.prf\r:%:SPELL ASSIGNED: {LLight Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

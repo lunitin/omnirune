@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Fire.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Fire Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Fire\\Minor_Wave_Fire.prf\r:%:SPELL ASSIGNED: {fLengthened Fire Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Fire\\Moderate_Wave_Fire.prf\r:%:SPELL ASSIGNED: {fExpanded Fire Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Fire\\Major_Wave_Fire.prf\r:%:SPELL ASSIGNED: {fMaximized Fire Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Fire\\Enhanced_Wave_Fire.prf\r:%:SPELL ASSIGNED: {fFire Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

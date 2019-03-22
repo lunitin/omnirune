@@ -1,0 +1,56 @@
+
+
+# Macro Set: OmniRune
+
+# File: E_Ice.prf
+
+# Spell Type Selection
+# User selects the form the prepared spell will take.
+
+# Element - Ice
+
+# Keymap: ` = Cancel Selection Process
+#         q = Bolt  w = Cloud  e = Ball 
+#         a = Wave  s = Burst  d = d
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Ice\\Bolt_Ice.prf\r:%:BASE SPELL: {iIce Bolt\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Ice\\Cloud_Ice.prf\r:%:BASE SPELL: {iIce Cloud\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Ice\\Ball_Ice.prf\r:%:BASE SPELL: {iIce Ball\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Ice\\Wave_Ice.prf\r:%:BASE SPELL: {iIce Wave\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Ice\\Burst_Ice.prf\r:%:BASE SPELL: {iIce Burst\r:%:{GSELECT SPELL POWER\r:%:(q) Minor  (w) Moderate  (e) Major\r:%:(a) Enhanced\r\e
+H:s
+
+
+# Macro '6'
+
+A:d
+C:d

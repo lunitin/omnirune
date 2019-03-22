@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Ice.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Ice Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Ice\\Minor_Bolt_Ice.prf\r:%:SPELL ASSIGNED: {iCompressed Ice Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Ice\\Moderate_Bolt_Ice.prf\r:%:SPELL ASSIGNED: {iBrief Ice Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Ice\\Major_Bolt_Ice.prf\r:%:SPELL ASSIGNED: {iMaximized Ice Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Ice\\Enhanced_Bolt_Ice.prf\r:%:SPELL ASSIGNED: {iIce Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

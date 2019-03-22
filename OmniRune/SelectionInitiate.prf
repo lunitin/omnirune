@@ -1,0 +1,54 @@
+
+
+# Macro Set: OmniRune
+
+# File: SelectionInitiate.prf
+
+# Element Selection Process - Step 1 
+# User selects the first of two elements for the prepared spell.
+
+# Keymap: ` = Cancel Selection Process
+#         q = Light      w = Nexus   e = Chaos 
+#         a = Darkness   s = Nether  d = Mana 
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Light.prf\r:%:BASE ELEMENT: {LLight\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Light      (w) Inertia    (e) Fire\r:%:(a) Confusion  (s) Lightning  (d) Water\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Nexus.prf\r:%:BASE ELEMENT: {xNexus\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Inertia  (w) Nexus   (e) Sound\r:%:(a) Gravity  (s) Shards  (d) Time\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Chaos.prf\r:%:BASE ELEMENT: {mChaos\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Fire  (w) Sound           (e) Chaos\r:%:(a) Acid  (s) Disenchantment  (d) Plasma\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Darkness.prf\r:%:BASE ELEMENT: {ADarkness\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Confusion  (w) Gravity  (e) Acid\r:%:(a) Darkness   (s) Frost    (d) Poison\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Nether.prf\r:%:BASE ELEMENT: {nNether\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Lightning  (w) Shards  (e) Disenchantment\r:%:(a) Frost      (s) Nether  (d) Ice\r\e
+H:s
+
+
+# Macro '6'
+
+A:\e)%lOmniRune\\ElementSelection\\B_Mana.prf\r:%:BASE ELEMENT: {NMana\r:%:{GSELECT FINAL ELEMENT\r:%:(q) Water   (w) Time  (e) Plasma\r:%:(a) Poison  (s) Ice   (d) Mana\r\e
+H:d

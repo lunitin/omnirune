@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Burst_Sound.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Sound Burst
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Sound\\Minor_Burst_Sound.prf\r:%:SPELL ASSIGNED: {SMinimized Sound Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Sound\\Moderate_Burst_Sound.prf\r:%:SPELL ASSIGNED: {SExpanded Sound Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Sound\\Major_Burst_Sound.prf\r:%:SPELL ASSIGNED: {SMaximized Sound Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Sound\\Enhanced_Burst_Sound.prf\r:%:SPELL ASSIGNED: {SSound Flare\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

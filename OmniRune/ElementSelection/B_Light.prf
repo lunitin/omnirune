@@ -1,0 +1,58 @@
+
+
+# Macro Set: OmniRune
+
+# File: B_Light.prf
+
+# Element Selection Process - Step 2
+# User selects the second of two elements for the prepared spell.
+
+# Base Element = Light
+
+# Keymap: ` = Cancel Selection Process
+#         q = Light      w = Inertia    e = Fire 
+#         a = Confusion  s = Lightning  d = Water 
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Light.prf\r:%:FINAL ELEMENT: {LLight\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Inertia.prf\r:%:FINAL ELEMENT: {qInertia\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Fire.prf\r:%:FINAL ELEMENT: {fFire\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Confusion.prf\r:%:FINAL ELEMENT: {CConfusion\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Lightning.prf\r:%:FINAL ELEMENT: {eLightning\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:s
+
+
+# Macro '6'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Water.prf\r:%:FINAL ELEMENT: {YWater\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:d
+
+

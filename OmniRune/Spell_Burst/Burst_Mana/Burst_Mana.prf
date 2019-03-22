@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Burst_Mana.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Mana Burst
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Mana\\Minor_Burst_Mana.prf\r:%:SPELL ASSIGNED: {NMinimized Mana Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Mana\\Moderate_Burst_Mana.prf\r:%:SPELL ASSIGNED: {NExpanded Mana Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Mana\\Major_Burst_Mana.prf\r:%:SPELL ASSIGNED: {NMaximized Mana Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Burst\\Burst_Mana\\Enhanced_Burst_Mana.prf\r:%:SPELL ASSIGNED: {NMana Flare\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

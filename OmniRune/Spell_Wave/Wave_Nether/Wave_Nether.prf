@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Nether.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Nether Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nether\\Minor_Wave_Nether.prf\r:%:SPELL ASSIGNED: {nLengthened Nether Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nether\\Moderate_Wave_Nether.prf\r:%:SPELL ASSIGNED: {nExpanded Nether Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nether\\Major_Wave_Nether.prf\r:%:SPELL ASSIGNED: {nMaximized Nether Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Nether\\Enhanced_Wave_Nether.prf\r:%:SPELL ASSIGNED: {nNether Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

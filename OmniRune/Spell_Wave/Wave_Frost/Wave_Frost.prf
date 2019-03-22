@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Frost.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Frost Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Frost\\Minor_Wave_Frost.prf\r:%:SPELL ASSIGNED: {cLengthened Frost Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Frost\\Moderate_Wave_Frost.prf\r:%:SPELL ASSIGNED: {cExpanded Frost Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Frost\\Major_Wave_Frost.prf\r:%:SPELL ASSIGNED: {cMaximized Frost Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Frost\\Enhanced_Wave_Frost.prf\r:%:SPELL ASSIGNED: {cFrost Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

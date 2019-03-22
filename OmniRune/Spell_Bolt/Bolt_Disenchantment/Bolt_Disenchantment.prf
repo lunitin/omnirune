@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Disenchantment.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Disenchantment Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Disenchantment\\Minor_Bolt_Disenchantment.prf\r:%:SPELL ASSIGNED: {TCompressed Disenchantment Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Disenchantment\\Moderate_Bolt_Disenchantment.prf\r:%:SPELL ASSIGNED: {ABrief Disenchantment Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Disenchantment\\Major_Bolt_Disenchantment.prf\r:%:SPELL ASSIGNED: {AMaximized Disenchantment Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Disenchantment\\Enhanced_Bolt_Disenchantment.prf\r:%:SPELL ASSIGNED: {ADisenchantment Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

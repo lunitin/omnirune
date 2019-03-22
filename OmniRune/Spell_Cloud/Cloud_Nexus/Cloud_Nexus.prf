@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Nexus.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Nexus Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Nexus\\Minor_Cloud_Nexus.prf\r:%:SPELL ASSIGNED: {xLengthened Nexus Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Nexus\\Moderate_Cloud_Nexus.prf\r:%:SPELL ASSIGNED: {xExpanded Nexus Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Nexus\\Major_Cloud_Nexus.prf\r:%:SPELL ASSIGNED: {xMaximized Nexus Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Nexus\\Enhanced_Cloud_Nexus.prf\r:%:SPELL ASSIGNED: {xNexus Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

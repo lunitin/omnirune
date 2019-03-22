@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Darkness.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Darkness Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Darkness\\Minor_Bolt_Darkness.prf\r:%:SPELL ASSIGNED: {ACompressed Darkness Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Darkness\\Moderate_Bolt_Darkness.prf\r:%:SPELL ASSIGNED: {ABrief Darkness Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Darkness\\Major_Bolt_Darkness.prf\r:%:SPELL ASSIGNED: {AMaximized Darkness Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Darkness\\Enhanced_Bolt_Darkness.prf\r:%:SPELL ASSIGNED: {ADarkness Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Confusion.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Confusion Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Confusion\\Minor_Cloud_Confusion.prf\r:%:SPELL ASSIGNED: {CLengthened Confusion Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Confusion\\Moderate_Cloud_Confusion.prf\r:%:SPELL ASSIGNED: {CExpanded Confusion Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Confusion\\Major_Cloud_Confusion.prf\r:%:SPELL ASSIGNED: {CMaximized Confusion Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Confusion\\Enhanced_Cloud_Confusion.prf\r:%:SPELL ASSIGNED: {CConfusion Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

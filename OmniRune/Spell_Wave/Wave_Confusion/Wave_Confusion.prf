@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Confusion.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Confusion Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Confusion\\Minor_Wave_Confusion.prf\r:%:SPELL ASSIGNED: {CLengthened Confusion Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Confusion\\Moderate_Wave_Confusion.prf\r:%:SPELL ASSIGNED: {CExpanded Confusion Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Confusion\\Major_Wave_Confusion.prf\r:%:SPELL ASSIGNED: {CMaximized Confusion Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Confusion\\Enhanced_Wave_Confusion.prf\r:%:SPELL ASSIGNED: {CConfusion Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

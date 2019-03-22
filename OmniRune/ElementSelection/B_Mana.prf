@@ -1,0 +1,58 @@
+
+
+# Macro Set: OmniRune
+
+# File: B_Mana.prf
+
+# Element Selection Process - Step 2
+# User selects the second of two elements for the prepared spell.
+
+# Base Element = Mana
+
+# Keymap: ` = Cancel Selection Process
+#         q = Water   w = Time  e = Plasma 
+#         a = Poison  s = Ice   d = Mana 
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Water.prf\r:%:FINAL ELEMENT: {YWater\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Time.prf\r:%:FINAL ELEMENT: {tTime\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Plasma.prf\r:%:FINAL ELEMENT: {lPlasma\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Poison.prf\r:%:FINAL ELEMENT: {pPoison\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Ice.prf\r:%:FINAL ELEMENT: {iIce\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:s
+
+
+# Macro '6'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Mana.prf\r:%:FINAL ELEMENT: {NMana\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:d
+
+

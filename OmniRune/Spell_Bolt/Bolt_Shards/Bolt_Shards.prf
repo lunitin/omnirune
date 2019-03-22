@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Shards.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Shards Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Shards\\Minor_Bolt_Shards.prf\r:%:SPELL ASSIGNED: {HCompressed Shard Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Shards\\Moderate_Bolt_Shards.prf\r:%:SPELL ASSIGNED: {HBrief Shard Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Shards\\Major_Bolt_Shards.prf\r:%:SPELL ASSIGNED: {HMaximized Shard Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Shards\\Enhanced_Bolt_Shards.prf\r:%:SPELL ASSIGNED: {HShard Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

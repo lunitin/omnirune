@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Sound.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Sound Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Sound\\Minor_Bolt_Sound.prf\r:%:SPELL ASSIGNED: {SCompressed Sound Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Sound\\Moderate_Bolt_Sound.prf\r:%:SPELL ASSIGNED: {SBrief Sound Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Sound\\Major_Bolt_Sound.prf\r:%:SPELL ASSIGNED: {SMaximized Sound Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Sound\\Enhanced_Bolt_Sound.prf\r:%:SPELL ASSIGNED: {SSound Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

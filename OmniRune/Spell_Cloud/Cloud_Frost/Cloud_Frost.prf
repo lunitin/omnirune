@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Frost.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Frost Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Frost\\Minor_Cloud_Frost.prf\r:%:SPELL ASSIGNED: {cLengthened Frost Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Frost\\Moderate_Cloud_Frost.prf\r:%:SPELL ASSIGNED: {cExpanded Frost Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Frost\\Major_Cloud_Frost.prf\r:%:SPELL ASSIGNED: {cMaximized Frost Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Frost\\Enhanced_Cloud_Frost.prf\r:%:SPELL ASSIGNED: {cFrost Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

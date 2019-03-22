@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Acid.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Acid Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Acid\\Minor_Wave_Acid.prf\r:%:SPELL ASSIGNED: {aLengthened Acid Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Acid\\Moderate_Wave_Acid.prf\r:%:SPELL ASSIGNED: {aExpanded Acid Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Acid\\Major_Wave_Acid.prf\r:%:SPELL ASSIGNED: {aMaximized Acid Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Acid\\Enhanced_Wave_Acid.prf\r:%:SPELL ASSIGNED: {aAcid Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Ball_Acid.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Acid Ball
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Acid\\Minor_Ball_Acid.prf\r:%:SPELL ASSIGNED: {aLengthened Acid Ball\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Acid\\Moderate_Ball_Acid.prf\r:%:SPELL ASSIGNED: {aExpanded Acid Ball\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Acid\\Major_Ball_Acid.prf\r:%:SPELL ASSIGNED: {aMaximized Acid Ball\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Acid\\Enhanced_Ball_Acid.prf\r:%:SPELL ASSIGNED: {aAcid Swarm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Confusion.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Confusion Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Confusion\\Minor_Bolt_Confusion.prf\r:%:SPELL ASSIGNED: {CCompressed Confusion Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Confusion\\Moderate_Bolt_Confusion.prf\r:%:SPELL ASSIGNED: {CBrief Confusion Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Confusion\\Major_Bolt_Confusion.prf\r:%:SPELL ASSIGNED: {CMaximized Confusion Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Confusion\\Enhanced_Bolt_Confusion.prf\r:%:SPELL ASSIGNED: {CConfusion Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

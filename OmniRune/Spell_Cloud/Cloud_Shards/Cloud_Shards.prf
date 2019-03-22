@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Cloud_Shards.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Shards Cloud
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Shards\\Minor_Cloud_Shards.prf\r:%:SPELL ASSIGNED: {HLengthened Shard Cloud\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Shards\\Moderate_Cloud_Shards.prf\r:%:SPELL ASSIGNED: {HExpanded Shard Cloud\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Shards\\Major_Cloud_Shards.prf\r:%:SPELL ASSIGNED: {HMaximized Shard Cloud\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Cloud\\Cloud_Shards\\Enhanced_Cloud_Shards.prf\r:%:SPELL ASSIGNED: {HShard Storm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

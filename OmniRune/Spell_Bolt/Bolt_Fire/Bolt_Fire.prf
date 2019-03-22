@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Bolt_Fire.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Fire Bolt
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Fire\\Minor_Bolt_Fire.prf\r:%:SPELL ASSIGNED: {fCompressed Fire Bolt\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Fire\\Moderate_Bolt_Fire.prf\r:%:SPELL ASSIGNED: {fBrief Fire Bolt\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Fire\\Major_Bolt_Fire.prf\r:%:SPELL ASSIGNED: {fMaximized Fire Bolt\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Bolt\\Bolt_Fire\\Enhanced_Bolt_Fire.prf\r:%:SPELL ASSIGNED: {fFire Beam\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

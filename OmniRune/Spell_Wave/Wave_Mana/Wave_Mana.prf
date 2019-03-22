@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Mana.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Mana Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Mana\\Minor_Wave_Mana.prf\r:%:SPELL ASSIGNED: {NLengthened Mana Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Mana\\Moderate_Wave_Mana.prf\r:%:SPELL ASSIGNED: {NExpanded Mana Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Mana\\Major_Wave_Mana.prf\r:%:SPELL ASSIGNED: {NMaximized Mana Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Mana\\Enhanced_Wave_Mana.prf\r:%:SPELL ASSIGNED: {NMana Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

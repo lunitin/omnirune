@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Ball_Inertia.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Inertia Ball
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Inertia\\Minor_Ball_Inertia.prf\r:%:SPELL ASSIGNED: {qLengthened Inertia Ball\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Inertia\\Moderate_Ball_Inertia.prf\r:%:SPELL ASSIGNED: {qExpanded Inertia Ball\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Inertia\\Major_Ball_Inertia.prf\r:%:SPELL ASSIGNED: {qMaximized Inertia Ball\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Ball\\Ball_Inertia\\Enhanced_Ball_Inertia.prf\r:%:SPELL ASSIGNED: {qInertia Swarm\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

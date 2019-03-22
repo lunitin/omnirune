@@ -1,0 +1,58 @@
+
+
+# Macro Set: OmniRune
+
+# File: B_Darkness.prf
+
+# Element Selection Process - Step 2
+# User selects the second of two elements for the prepared spell.
+
+# Base Element = Darkness
+
+# Keymap: ` = Cancel Selection Process
+#         q = Confusion  w = Gravity  e = Acid 
+#         a = Darkness   s = Frost    d = Poison 
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Confusion.prf\r:%:FINAL ELEMENT: {CConfusion\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Gravity.prf\r:%:FINAL ELEMENT: {VGravity\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Acid.prf\r:%:FINAL ELEMENT: {aAcid\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Darkness.prf\r:%:FINAL ELEMENT: {ADarkness\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:a
+
+
+# Macro '5'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Frost.prf\r:%:FINAL ELEMENT: {cFrost\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:s
+
+
+# Macro '6'
+
+A:\e)%lOmniRune\\ElementSelection\\E_Poison.prf\r:%:FINAL ELEMENT: {pPoison\r:%:{GSELECT SPELL FORM\r:%:(q) Bolt  (w) Cloud  (e) Ball\r:%:(a) Wave  (d) Burst\r\e
+H:d
+
+

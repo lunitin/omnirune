@@ -1,0 +1,50 @@
+
+
+# Macro Set: OmniRune
+
+# File: Wave_Lightning.prf
+
+# Spell Power Selection
+# User selects the power of the prepared spell.
+
+# Spell Type - Lightning Wave
+
+# Keymap: ` = Cancel Selection Process
+#         q = Minor     w = Moderate    e = Major
+#		  a = Enhanced  s = s
+
+
+# Macro '0'
+
+A:\e)%lOmniRune\\SelectionCancel.prf\r:%:{RCANCELLED\r\e
+H:\t
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Lightning\\Minor_Wave_Lightning.prf\r:%:SPELL ASSIGNED: {eLengthened Lightning Wave\r\e
+H:q
+
+
+# Macro '2'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Lightning\\Moderate_Wave_Lightning.prf\r:%:SPELL ASSIGNED: {eExpanded Lightning Wave\r\e
+H:w
+
+
+# Macro '3'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Lightning\\Major_Wave_Lightning.prf\r:%:SPELL ASSIGNED: {eMaximized Lightning Wave\r\e
+H:e
+
+
+# Macro '4'
+
+A:\e)%lOmniRune\\Spell_Wave\\Wave_Lightning\\Enhanced_Wave_Lightning.prf\r:%:SPELL ASSIGNED: {eLightning Surge\r\e
+H:a
+
+
+# Macro '5'
+
+A:s
+C:s

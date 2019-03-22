@@ -1,0 +1,54 @@
+
+
+# Macro Set: OmniRune
+
+# File: Enhanced_Wave_Nexus.prf
+
+# Assign Spell to Hotkey
+
+# Spell Type - Nexus Wave
+
+# Keymap: ` = Initiate Selection Process
+#         q = q     w = w    e = e
+#		  a = a
+
+#		  + = Enhanced Nexus Wave
+
+
+
+
+# Macro '0'
+
+A:\e)*tm@12\rcche-
+C:$
+
+
+# Macro '1'
+
+A:\e)%lOmniRune\\SelectionInitiate.prf\r:%:{GSELECT BASE ELEMENT\r:%:(q) Light      (w) Nexus    (e) Chaos\r:%:(a) Darkness   (s) Nether   (d) Mana\r\e
+H:\t
+
+
+# Macro '2'
+
+A:q
+C:q
+
+
+# Macro '3'
+
+A:w
+C:w
+
+
+# Macro '4'
+
+A:e
+C:e
+
+
+# Macro '5'
+
+A:a
+C:a
+
